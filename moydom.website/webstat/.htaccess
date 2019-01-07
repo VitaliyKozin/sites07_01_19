@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/moydom.website/webstat"
+AuthUserFile /var/www/zdorovozhivem/data/etc/103950177.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

@@ -1,0 +1,797 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201712 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.moydom.website.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2673                
+POS_VISITOR 14389               
+POS_DAY 22996               
+POS_DOMAIN 3548                
+POS_LOGIN 3781                
+POS_ROBOT 3936                
+POS_WORMS 4595                
+POS_EMAILSENDER 4726                
+POS_EMAILRECEIVER 4869                
+POS_SESSION 23750               
+POS_SIDER 23942               
+POS_FILETYPES 5004                
+POS_DOWNLOADS 5265                
+POS_OS 5398                
+POS_BROWSER 5561                
+POS_SCREENSIZE 6950                
+POS_UNKNOWNREFERER 7024                
+POS_UNKNOWNREFERERBROWSER 7292                
+POS_ORIGIN 7403                
+POS_SEREFERRALS 7549                
+POS_PAGEREFS 7727                
+POS_SEARCHWORDS 8185                
+POS_KEYWORDS 8337                
+POS_MISC 2336                
+POS_ERRORS 8396                
+POS_CLUSTER 3637                
+POS_SIDER_404 8549                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180101000312 32 6928 15091307549538
+FirstTime 20171201013447
+LastTime 20171231224841
+LastUpdate 20180101042327 32 0 31 0 0
+TotalVisits 245                 
+TotalUnique 205                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 221                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 32 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 213 5838274 172 206 9429859
+1 3 3 20347 24 58 1755138
+2 24 124 4601694 60 106 2519342
+3 17 59 2864930 35 77 1789243
+4 23 139 1782188 45 101 1582328
+5 19 205 3546692 44 77 1472270
+6 179 179 910611 31 65 1970602
+7 19 95 1983190 34 63 1888117
+8 10 144 1600146 50 82 2184011
+9 10 189 1997087 43 98 1816666
+10 9 132 3449196 40 106 3000771
+11 12 354 8680661 63 124 4947646
+12 10 22 454603 59 106 2647527
+13 9 245 4284860 32 55 1654822
+14 8 58 667319 26 59 2993457
+15 11 169 7542334 26 77 2433302
+16 56 282 12206757 45 97 5618270
+17 14 115 4824938 63 119 5734828
+18 6 99 2678769 40 88 3918403
+19 48 802 34172316 47 97 3399881
+20 44 402 14874731 39 86 5776550
+21 26 524 25162188 33 85 6732293
+22 16 83 1318114 42 78 3441333
+23 3 3 67572 42 93 4047124
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 592 4640 145529517
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+yandex 476 9299689 20171231230905 85
+wordpress 450 77944 20171231230903 0
+googlebot 230 10992851 20171231124940 24
+bot[\s_+:,\.\;\/\\-] 215 11691626 20171231000150 72
+crawl 138 7349166 20171231004459 1
+facebook 137 33528991 20171231205941 0
+mail\.ru 60 906666 20171230045239 29
+ia_archiver 42 946586 20171216015528 14
+no_user_agent 40 1748358 20171229085222 6
+favicon 28 820000 20171231091221 0
+python 2 564 20171223075258 0
+surveybot 2 36328 20171217052524 1
+unknown 5 4905 20171226071143 5
+netcraft 1 35347 20171207195258 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 461 2822574 0 0
+png 1723 3974287 0 0
+txt 1 86991 0 0
+php 278 1986877 0 0
+html 288 9681113 0 0
+xml 4 4496 0 0
+js 534 16920104 0 0
+jpg 1256 108707918 0 0
+Unknown 22 1286624 0 0
+gif 73 58533 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 237 0 232497
+/wp-content/plugins/nextgen-gallery/changelog.txt 1 0 86991
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 1874
+winlong 3
+winxp 424
+win2000 3
+winnt 526
+linux 137
+winvista 231
+win7 1238
+macosx 155
+win2003 1
+Unknown 48
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 70
+firefox57.0 107
+msie6.0 4
+chrome44.0.2403.124 110
+chrome12.0.742.100 1
+chrome39.0.2171.95 45
+chrome58.0.3029.110 82
+msie8.0 134
+chrome63.0.3239.84 408
+chrome60.0.3112.101 1
+chrome37.0.2062.120 2
+chrome62.0.3202.89 144
+chrome50.0.2661.75 15
+chrome50.0.2661.86 1
+firefox52.50.13 1
+chrome49.0.2623.112 239
+netscape 22
+firefox50.0 6
+firefox48.0 9
+chrome55.0.2883.87 49
+chrome58.0.3029.83 1
+chrome57.5.9802.4630 1
+chrome60.0.3112.107 295
+firefox29.0 6
+chrome62.0.3202.94 429
+chrome40.0.2214.114 50
+chrome63.0.3239.107 52
+firefox45.0 3
+chrome60.0.3112.113 94
+chrome51.0.2704.103 1
+chrome44.0.2403.146 2
+mozilla 77
+chrome61.0.3163.98 115
+safari 43
+safari11.0 52
+android 100
+chrome55.0.2883.91 89
+firefox52.0 50
+chrome56.0.2924.87 2
+chrome36.0.1985.125 3
+chrome56.2.6290.1928 1
+chrome46.0.2490.76 1
+chrome33.0.0.0 54
+iphone 5
+chrome39.0.0.0 230
+chrome61.0.3163.100 215
+chrome53.0.2785.89 44
+chrome34.0.1847.116 1
+chrome40.0.2214.85 2
+chrome57.4.9559.4287 1
+msie9.0 170
+Unknown 2
+chrome60.0.3112.116 75
+safari4.6.1 1
+chrome30.0.0.0 1
+chrome57.0.2987.132 1
+chrome63.0.3239.111 277
+firefox17.0 37
+chrome41.0.2272.118 43
+chrome17.0.963.66 1
+chrome51.0.2704.79 85
+firefox46.0 2
+chrome59.0.3071.125 51
+chrome41.0.2227.1 1
+chrome43.0.2357.172 68
+chrome45.0.2454.94 2
+chrome62.0.3202.84 365
+safari4.7.2 1
+chrome44.0.2403.119 1
+msie10.0 52
+firefox3.6.8 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla 20171213163158
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20171226071313
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20171225071536
+reqwest/0.6.2 20171211203309
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+reqwest/0.6.2 20171211203309
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 196 217
+From1 16 16
+From2 34 35
+From3 67 116
+From4 279 4256
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 2 3
+yandex 31 31
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://m.facebook.com 50 50
+https://yandex.fr/clck/jsredir 4 4
+https://www.facebook.com 4 4
+https://lm.facebook.com 2 2
+http://burger-imperia.com 2 2
+https://yandex.ua/clck/jsredir 1 1
+https://m.facebook.com/home.php 1 50
+https://t.co/jeTt8HqzSl 1 1
+https://m.facebook.com 1 1
+http://pagebin.com/ooZHo68r 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+503 37 19130
+302 21 13074
+206 6 208162
+405 1 246
+404 163 4220471
+301 62 19922
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 139
+/ 4 -
+/priv8.php 1 -
+/wp-includes/pomo/w7388n.php 1 moydom.website
+/wp-includes/class-wp-bar.php 1 moydom.website
+/category/sad 1 http://moydom.website
+/.well-known/apple-app-site-association 5 -
+/wp-content/pictur.php 1 moydom.website
+/mss.php 1 -
+/wp-content/themes/sketch/content-wp-access.php 1 moydom.website
+/wp-includes/certificates/b.php 1 moydom.website
+/blog/wp-admin/setup-config.php 1 -
+/jquery.php 1 -
+/wp-content/plugins/index.lib.php 1 -
+/Bsxca.php 1 -
+/tmp.php 1 moydom.website
+/wp-content/plugins/wp-conns.php 1 moydom.website
+/wp-content/plugins/easyrotator-for-wordpress/b.php 1 moydom.website
+/aa.jpg.php 1 -
+/wp-content/plugins/wp-property/action_hooks.php 1 -
+/wp-content/plugins/500.php 1 moydom.website
+/wp-content/plugins/mobile-app-builder-by-wappress/server/images/b.php 1 moydom.website
+/pic.php 1 moydom.website
+/wp-pols.php 1 moydom.website
+/wp-includes/widgets/class-wp-widget-content.php 1 moydom.website
+/images/CONFIGURATIONS.php 1 moydom.website
+/wp-content/plugins/nmedia-user-file-uploader/readme.txt 1 -
+/wp-content/plugins/user-meta/readme.txt 1 -
+/wp-content/plugins/revslider/b.php 1 moydom.website
+/wp-includes/class.wp-tmps.php 1 moydom.website
+/resume-submissions-job-postings/readme.txt 1 moydom.website
+/wp-content/languages/themes/b.php 1 moydom.website
+/category/sad/ 6 -
+/wp-content/plugins/front-end-upload/destination.php 2 -
+/doc-ready/doc-ready 1 -
+/cd.php 1 -
+/indax.php 1 moydom.website
+/6UeDfaC17h 1 -
+/wp-includes/Text/Tiff.php 1 moydom.website
+/downloader 1 -
+/wp-content/plugins/wp-file-manager/js/fm_script.js 1 -
+/wp-content/themes/twentyfifteen/genericons/b.php 1 moydom.website
+/wp-help.php 1 moydom.website
+/wp-content/uploads/2017/12/settings.php 1 moydom.website
+/wp-includes/images/b.php 1 moydom.website
+/webb.php 1 -
+/tools/replace.php 1 -
+/w2.php 1 -
+/wp-content/themes/twentyfifteen/inc/b.php 1 moydom.website
+/vb.php 1 moydom.website
+/pFz3vJfuiFFKS5 1 -
+/google23bd346df54fe3e6.html 1 -
+/wp-index.php 1 moydom.website
+/inl.php 1 moydom.website
+/wp-includes/Requests/b.php 1 moydom.website
+/wp-content/plugins/auto-attachments/a-a.css 1 -
+/wp/wp-admin/setup-config.php 1 -
+/wp-content/uploads/index.php 1 moydom.website
+/wp-cache.php 1 moydom.website
+/wp-admin/maint/index.php 1 moydom.website
+/wp-includes/Text/b.php 1 moydom.website
+/wp-includes/LICENSE.php 1 moydom.website
+/wp-content/plugins/formidable/js/formidable.js 1 -
+/wp-content/languages/plugins/b.php 1 moydom.website
+/wp-admin/includes/rnnvhs.php 1 moydom.website
+/wp-json/wp/v2/users/ 2 -
+/wp-content/plugins/wp-super-cache/b.php 1 moydom.website
+/wp-content/plugins/apikey/apikey.php 1 -
+/wp-includes/css/style.css.php 1 moydom.website
+/wp-includes/js/tinymce/global.php 1 moydom.website
+/wp-content/plugins/myshe.php 1 moydom.website
+/wp-admin/home.bak.php 1 moydom.website
+/wp-includes/pomo/b.php 1 moydom.website
+/wp-sbb.php 1 moydom.website
+/vp2A8vHNd49HjPUrqSyHM 1 -
+/.ftpconfig 1 -
+/elDvKS.php 1 -
+/offer.php 1 -
+/wp-content/plugins/BNO.php 1 -
+/wp-includes/widgets/b.php 1 moydom.website
+/hivcxa.php 1 moydom.website
+/wp-content/plugins/woocommerce-jetpack/wpml-config.xml 1 moydom.website
+/xml.php 1 moydom.website
+/wp-content/plugins/broken-link-checker/b.php 1 moydom.website
+/wp-content/uploads/wp-statistics/b.php 1 moydom.website
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor.config.js 1 -
+/wp-includes/images/hon2our.php 1 moydom.website
+/wp-admin/images/b.php 1 moydom.website
+/bgeiis.php 1 moydom.website
+/wp-admin/includes/images.php 1 moydom.website
+/cache.php 1 moydom.website
+/Kljcvn.php 1 -
+/wp-content/plugins/Login-wall-LWD/wall_log.php 1 -
+/wp-includes/class.wp-times.php 1 moydom.website
+/wp-content/plugins/szalog.php 1 moydom.website
+/wp-content/plugins/simple-dropbox-upload-form/ 1 -
+/TYvuMShEhX1ecNkINSJme 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/wp-content/plugins/.newsfeed.php 1 -
+/wp-includes/images/media/rss.php 1 moydom.website
+/wp-content/plugins/wp-vipergb/b.php 1 moydom.website
+/replace.php 1 -
+/wp-set.php 1 moydom.website
+/x.php 1 -
+/yjh.php 1 moydom.website
+/eek.php 1 -
+/.well-known/assetlinks.json 5 -
+/wp-content/plugins/magic-fields/MF_Constant.php 1 -
+/administrator/replace.php 1 -
+/administrator/includes/readmy.php 1 moydom.website
+/wp-content/plugins/mac-dock-gallery/bugslist.txt 1 -
+/db_z.php 1 moydom.website
+/wp-admin/includes/wp-cods.php 1 moydom.website
+/old/wp-admin/setup-config.php 1 -
+/wp-content/plugins/ninja-forms/ninja_forms.php 1 -
+/wp-content/themes/sketch/404.php 1 moydom.website
+/Rsfgss.php 1 -
+/wp-temporary.php 1 moydom.website
+/wp-content/themes/error-log.php 1 moydom.website
+/test/wp-admin/setup-config.php 1 -
+/wp-content/themes/wp-conns.php 2 moydom.website
+/wp-content/plugins/rnnvhs.php 1 moydom.website
+/wp-admin/network/rnnvhs.php 1 moydom.website
+/wp-content/plugins/cimy-user-extra-fields/README_OFFICIAL.txt 1 -
+/modules/modules.php 1 moydom.website
+/wp-content/plugins/font-uploader/font-uploader-free.php 1 -
+/wp-content/plugins/option-seo/install.php 1 moydom.website
+/far.php 1 -
+/wp-content/plugins/wp-image-news-slider/functions.php 1 -
+/includes.php 1 moydom.website
+/wp-content/plugins/category-grid-view-gallery/cat_grid.php 1 -
+/wp-content/plugins/wpmarketplace/readme.txt 2 -
+/wp-content/plugins/delete-all-comments/readme.txt 1 moydom.website
+/rep.php 1 -
+/wp-content/plugins/gallery-slider/b.php 1 moydom.website
+/wp-includes/pomo/so.php 1 moydom.website
+/ws.php 1 moydom.website
+/b.php 1 moydom.website
+/wp-content/plugins/wp-editor/readme.txt 1 -
+/apple-app-site-association 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 221
+142.54.189.82 173 173 791027 20171209065302
+104.192.74.18 46 46 1486332 20171213163158
+92.244.99.98 16 226 6820169 20171223210440
+192.99.47.111 14 14 387704 20171218020557
+217.23.12.158 12 12 95641 20171211061935
+109.236.87.212 12 12 95586 20171209040238
+158.69.127.133 11 11 305286 20171226071328
+13.56.229.65 10 10 353470 20171231043011
+5.254.97.105 8 8 63742 20171215024255
+178.94.200.100 8 68 817029 20171221060027
+158.46.212.139 1 1 35347 20171222052319
+202.170.69.9 1 1 4466 20171220191509
+46.133.113.32 1 1 33645 20171219204646
+92.112.173.174 1 1 33645 20171220085931
+188.163.108.120 1 1 35347 20171220094533
+5.39.79.119 1 1 4466 20171220201440
+178.171.79.38 1 1 35347 20171214131245
+37.110.97.85 1 49 473810 20171217094900
+46.211.5.140 1 1 33645 20171219164658
+162.247.73.204 1 1 628 20171218042713
+46.211.128.218 1 3 60370 20171221212904
+185.135.82.211 2 2 73347 20171231224841
+34.215.168.213 1 1 35347 20171221142444
+51.255.215.15 1 1 4466 20171220205225
+201.53.99.117 1 1 35347 20171230130328
+162.223.14.171 1 1 4466 20171220201114
+37.204.153.61 1 43 435112 20171218001311
+95.132.134.34 1 52 2310186 20171219192652
+66.102.9.24 0 19 304206 
+94.130.131.80 1 1 35347 20171201144231
+93.78.239.178 1 50 2266167 20171206200712
+37.73.190.214 1 23 1317602 20171219165422
+159.224.64.250 1 52 2309896 20171220131720
+162.144.65.42 1 1 4466 20171219030428
+195.3.129.20 6 63 736905 20171231005716
+92.112.193.8 1 1 33355 20171219181551
+195.128.139.227 2 86 3500620 20171219164957
+168.90.121.129 1 1 35347 20171216092540
+188.213.19.102 1 1 4466 20171220195625
+128.199.253.239 1 1 4466 20171220202258
+78.85.5.245 2 2 38762 20171229213240
+91.220.196.110 1 1 4466 20171220204122
+94.248.30.24 1 51 517829 20171201075321
+79.111.94.173 1 43 435112 20171227091357
+62.77.94.15 1 1 173 20171227175414
+185.162.18.184 1 52 2310186 20171219173937
+5.61.40.120 2 2 734 20171213102637
+162.144.208.68 1 1 4466 20171220194048
+31.13.113.198 0 20 532097 
+138.246.253.19 2 2 564 20171221142238
+46.211.124.232 1 50 2266167 20171220105938
+66.249.87.62 1 1 291 20171225071536
+190.112.208.171 2 2 8932 20171219034612
+54.166.118.84 0 1 20779 
+82.223.248.93 1 1 4466 20171219031759
+185.190.151.129 1 1 33645 20171219171318
+46.164.148.116 2 122 5727170 20171219165234
+94.179.236.59 1 50 2266167 20171221002125
+46.242.79.221 1 1 45048 20171207023644
+95.133.130.234 1 51 517829 20171229143528
+69.162.120.11 3 3 52366 20171211121622
+109.95.35.65 2 108 10692769 20171210210825
+77.122.57.46 1 1 33355 20171206071550
+188.232.116.242 0 6 201414 
+95.110.200.241 6 6 109650 20171201050254
+178.92.8.106 1 1 33355 20171220123101
+37.187.132.5 1 1 35347 20171212163449
+79.164.131.70 1 49 473810 20171201085557
+83.143.240.18 1 1 628 20171225053445
+95.153.102.204 1 51 517829 20171219193549
+46.211.102.242 7 295 17488286 20171219195909
+185.45.13.148 3 3 24294 20171213034436
+95.28.162.238 1 13 288956 20171217125841
+177.74.61.241 1 1 4405 20171201205803
+37.145.31.32 1 8 174943 20171201101612
+5.228.17.199 1 13 279255 20171217105620
+193.26.6.167 1 1 4466 20171220195128
+37.73.247.8 1 2 49292 20171230153338
+176.36.159.235 1 1 33645 20171219220744
+104.168.142.54 1 1 35347 20171227093513
+88.198.51.117 1 1 4466 20171220200713
+46.73.112.236 0 1 1403 
+31.131.134.66 0 1 28506 
+35.196.223.15 7 7 708085 20171224030758
+89.104.167.21 1 1 4466 20171220200709
+95.28.167.99 1 1 35347 20171201222251
+34.216.53.171 1 1 35347 20171214140848
+78.153.145.129 1 51 2286946 20171218201814
+188.166.30.251 1 1 33645 20171211181733
+52.53.129.101 1 1 35347 20171202074352
+178.93.148.127 1 51 517829 20171201194614
+91.241.168.94 1 51 517829 20171223132543
+119.28.22.236 1 1 4405 20171201124707
+188.230.46.57 4 110 4836047 20171227194102
+85.103.39.146 1 1 33645 20171220154356
+46.211.100.109 1 1 33645 20171219213926
+176.121.6.64 5 141 7135409 20171219190901
+139.59.244.15 1 1 4466 20171220195801
+72.9.153.165 1 1 4466 20171220195910
+128.199.194.131 1 1 35138 20171226050107
+5.165.245.139 0 3 92859 
+37.73.225.235 1 50 2265877 20171216000325
+185.45.13.147 2 2 15934 20171216003638
+217.68.32.44 1 1 4466 20171220201229
+195.154.181.190 1 1 4466 20171219034052
+78.111.57.77 4 96 3852985 20171219203053
+66.102.9.21 1 11 76131 20171230225301
+188.166.84.224 1 51 517829 20171223214558
+63.247.142.132 1 1 4466 20171220194542
+184.72.99.111 1 43 435112 20171211205309
+185.70.8.20 1 1 4466 20171220204615
+188.213.175.168 1 1 35138 20171227222758
+163.172.106.89 1 1 4466 20171220204725
+52.169.156.233 2 2 7820 20171217041216
+188.32.7.45 1 13 288956 20171201051232
+94.250.254.92 2 2 35629 20171208102229
+95.220.98.30 1 28 409203 20171202042634
+46.133.191.133 1 1 33645 20171219190313
+46.42.128.9 1 11 285578 20171202224229
+46.211.5.247 1 1 33645 20171219203303
+192.81.210.176 1 1 4460 20171215121210
+65.49.68.190 1 50 494589 20171221114347
+72.52.156.59 1 1 4466 20171220204149
+46.211.158.82 1 50 2285631 20171219171526
+46.211.6.89 1 1 33645 20171220110339
+37.55.153.79 1 50 497050 20171216193509
+94.180.159.91 1 13 288956 20171218220410
+188.255.20.147 1 13 288956 20171227114352
+103.14.121.216 1 1 4466 20171220202715
+128.72.107.149 1 13 288956 20171229042920
+78.27.155.152 1 51 517829 20171211045031
+37.139.171.215 0 1 138824 
+185.129.62.63 1 1 35347 20171216122107
+182.23.146.170 1 1 4466 20171220200359
+54.204.1.79 1 1 4466 20171220203436
+108.165.20.163 1 1 4466 20171220210053
+78.85.135.85 1 1 367 20171201041817
+95.24.5.231 1 13 288956 20171212190412
+5.228.16.95 0 2 11453 
+192.64.54.196 1 1 4466 20171220203944
+46.42.164.115 1 49 473810 20171209132257
+54.183.130.127 8 8 282776 20171230093941
+82.145.222.4 4 145 6089031 20171222030058
+198.50.159.10 3 3 52366 20171219040221
+5.188.86.30 1 1 35347 20171218080357
+95.220.200.252 1 42 430956 20171213052558
+103.18.6.33 1 1 4466 20171220200022
+178.69.187.123 1 50 494589 20171201113735
+51.255.120.197 1 1 4466 20171220202707
+94.178.232.68 1 1 33645 20171222090449
+5.178.78.78 1 45 479131 20171207085916
+91.215.152.233 1 1 35347 20171223042421
+213.87.136.13 1 51 517829 20171211101328
+200.48.146.116 1 1 4466 20171219020020
+95.220.124.52 1 13 288956 20171209073808
+54.165.55.24 1 1 4466 20171220195410
+109.200.248.57 1 1 33645 20171219232238
+37.147.117.209 1 43 435112 20171209132256
+52.24.159.244 1 1 367 20171214181745
+95.221.50.185 1 7 87542 20171210040912
+128.68.223.155 1 13 279255 20171212190410
+182.48.49.145 1 1 4460 20171213194805
+66.102.9.22 0 13 54775 
+31.13.113.199 1 24 1046215 20171220110142
+124.133.33.58 2 2 7820 20171216191827
+46.133.104.226 1 1 33645 20171219175451
+46.211.100.28 1 1 33645 20171219171818
+5.2.211.92 2 2 346 20171227175642
+196.196.88.250 1 1 3415 20171219193335
+195.22.127.71 1 1 35347 20171202161353
+187.188.195.114 2 2 7820 20171221142522
+93.190.140.155 1 1 35347 20171211223207
+95.133.130.85 1 1 33645 20171221215529
+193.93.216.95 1 1 4405 20171201013447
+176.193.122.4 1 13 279255 20171209073808
+85.140.3.118 0 1 313353 
+23.245.183.114 1 1 4466 20171220193026
+31.13.113.196 0 8 731874 
+46.147.123.59 1 46 470960 20171227091358
+67.222.131.86 1 1 4466 20171220195700
+69.73.181.112 1 1 4466 20171220200639
+185.119.175.180 1 1 4466 20171220205922
+37.204.58.171 1 49 473810 20171213052559
+37.73.236.75 3 73 3526427 20171207213058
+213.110.148.63 7 166 7267236 20171220060004
+46.133.31.225 2 87 3843622 20171225110802
+185.174.172.210 1 1 367 20171211122500
+5.164.199.111 1 43 430013 20171227111553
+213.183.59.43 1 2 122338 20171210021629
+95.220.124.148 0 2 3378 
+195.162.83.22 2 27 1715837 20171221154115
+92.42.8.1 1 1 4405 20171201061947
+188.163.105.239 1 1 33645 20171219190542
+54.225.25.96 0 1 20779 
+179.43.118.66 1 1 4466 20171219022416
+89.234.68.97 5 5 144494 20171224193940
+46.133.118.30 1 1 33355 20171220000000
+188.32.30.139 1 12 277852 20171227114347
+52.69.115.224 1 1 4466 20171220195605
+176.116.8.39 1 1 35347 20171208045406
+46.98.23.98 1 43 435112 20171226114920
+92.112.202.33 1 1 33645 20171219170540
+37.53.144.177 1 54 2351744 20171219184629
+91.102.179.178 2 2 67290 20171220004945
+95.24.90.35 0 15 25909 
+91.197.185.228 3 131 1019174 20171208180753
+37.59.29.206 1 1 4466 20171220201053
+188.163.69.197 1 1 33645 20171219170501
+82.202.249.91 4 4 141388 20171217165304
+79.140.4.201 1 1 3415 20171219080406
+46.133.5.124 6 230 9559687 20171220215323
+185.64.16.117 1 1 4405 20171202045042
+46.133.242.160 1 1 33355 20171219181555
+188.166.217.203 1 1 4466 20171220194924
+46.42.26.246 0 1 12229 
+188.226.159.5 1 1 33645 20171220083757
+172.81.117.165 1 1 4466 20171220193928
+42.99.139.16 1 1 4466 20171220225914
+201.33.206.246 1 1 4405 20171201044348
+204.85.191.31 1 1 628 20171208052726
+159.253.37.220 1 1 35347 20171223110548
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20171201 20 242 2913828 15
+20171202 6 60 834514 6
+20171206 2 51 2299522 2
+20171207 10 211 4908842 7
+20171208 16 99 783306 11
+20171209 183 297 2315970 8
+20171210 8 128 11156722 5
+20171211 14 158 1709008 10
+20171212 7 32 1031307 6
+20171213 55 144 2463150 8
+20171214 7 7 102934 5
+20171215 4 4 55737 3
+20171216 9 107 2892722 7
+20171217 8 80 1155882 6
+20171218 19 123 3434693 6
+20171219 61 1191 55302259 39
+20171220 56 500 18848523 51
+20171221 19 204 5466433 10
+20171222 6 147 6158023 3
+20171223 19 243 7047625 6
+20171224 13 13 887926 3
+20171225 4 89 3844541 3
+20171226 13 55 775536 3
+20171227 15 274 6846694 11
+20171228 1 1 35347 1
+20171229 4 67 857776 3
+20171230 4 47 555098 4
+20171231 9 66 845599 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+15mn-30mn 1
+2mn-5mn 3
+0s-30s 225
+30s-2mn 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 55
+/wp-login.php 237 1032967 55 56
+/ 89 3042687 69 66
+/catalog/ 62 2083960 55 45
+/luchie-sorta-arbuzov/ 28 1261344 26 27
+/myadmin/ 19 158755 19 1
+/myadmin/index.php 18 136442 0 18
+/xmlrpc.php 12 741423 4 6
+/contacts/ 8 241750 1 1
+/%D0%BB%D0%B8%D0%BB%D0%B8%D0%B8-%D0%BB%D0%B8%D0%BB%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BB%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%81%D1%8B/nggallery/thumbnails/page/1 8 480160 0 4
+/2017/01/ 8 268672 3 3
+/category/dom/ 7 245098 0 0
+/category/zemelnij-uchastok/ 5 173960 0 1
+/%d0%bc%d0%be%d0%b8-%d1%80%d0%be%d0%b7%d1%8b/nggallery/page/2/slideshow 1 79487 0 0
+/%d0%bc%d0%be%d0%b8-%d1%85%d1%80%d0%b8%d0%b7%d0%b0%d0%bd%d1%82%d0%b5%d0%bc%d1%8b/nggallery/page/2 1 48371 0 0
+/%D0%BC%D0%BE%D0%B8-%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F/ 1 53087 0 0
+/%d0%bc%d0%be%d0%b8-%d1%85%d1%80%d0%b8%d0%b7%d0%b0%d0%bd%d1%82%d0%b5%d0%bc%d1%8b/nggallery/page/1 1 54377 0 1
+//wp-admin/admin-ajax.php 3 1101 3 3
+/2016/12/ 3 101763 0 0
+/feed/ 2 33318 1 0
+/%d1%81%d0%be%d0%b1%d0%b8%d1%80%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b3%d1%80%d0%b8%d0%b1%d0%be%d0%b2/ 4 147904 0 0
+/semeyniy-otdih/ 4 146627 0 0
+/%d0%bb%d0%b8%d0%bb%d0%b8%d0%b8-%d0%bb%d0%b8%d0%bb%d0%b5%d0%b9%d0%bd%d0%b8%d0%ba%d0%b8-%d0%b8-%d0%ba%d0%bb%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d1%81%d1%8b/nggallery/thumbnails/page/5 1 60685 1 0
+/wp-includes/wlwmanifest.xml 2 2584 0 0
+/%D1%82%D1%80%D0%B0%D0%B4%D0%B5%D1%81%D0%BA%D0%B0%D0%BD%D1%86%D0%B8%D0%B8/ 1 53704 0 1
+/%D1%85%D0%BE%D1%81%D1%82%D1%8B-%D0%B8-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D1%8B%D0%B5-%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F/ 5 304940 0 3
+/wp-admin/admin-ajax.php 2 734 2 2
+/comments/feed/ 2 13334 0 0
+/2017/09/ 3 87693 0 0
+/googlee4f00b6dc5acca62.html 1 291 1 1
+/%d1%85%d0%be%d1%81%d1%82%d1%8b-%d0%b8-%d0%b4%d1%80%d1%83%d0%b3%d0%b8%d0%b5-%d1%81%d0%b0%d0%b4%d0%be%d0%b2%d1%8b%d0%b5-%d1%80%d0%b0%d1%81%d1%82%d0%b5%d0%bd%d0%b8%d1%8f/nggallery/page/2 1 61044 0 0
+/marks/%d0%b2%d1%8b%d1%80%d0%b0%d1%89%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b0%d1%80%d0%b1%d1%83%d0%b7%d0%be%d0%b2/ 2 68572 0 0
+/2017/03/ 3 85866 0 0
+/2017/05/ 2 58892 0 0
+/%d0%bb%d0%b8%d0%bb%d0%b8%d0%b8-%d0%bb%d0%b8%d0%bb%d0%b5%d0%b9%d0%bd%d0%b8%d0%ba%d0%b8-%d0%b8-%d0%ba%d0%bb%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d1%81%d1%8b/nggallery/thumbnails/page/4 1 60695 0 1
+/sbor-berezovogo-soka/ 3 120285 0 0
+/category/otdih/ 5 175350 0 0
+/%d0%bc%d0%be%d0%b8-%d1%80%d0%be%d0%b7%d1%8b/nggallery/page/2 2 106044 0 0
+/category/contacts/ 4 105832 0 0
+/%d0%bb%d0%b8%d0%bb%d0%b8%d0%b8-%d0%bb%d0%b8%d0%bb%d0%b5%d0%b9%d0%bd%d0%b8%d0%ba%d0%b8-%d0%b8-%d0%ba%d0%bb%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d1%81%d1%8b/nggallery/thumbnails/page/3 1 60424 0 1
+//wp-login.php 1 3415 1 0
+/%D0%BC%D0%BE%D0%B8-%D1%85%D1%80%D0%B8%D0%B7%D0%B0%D0%BD%D1%82%D0%B5%D0%BC%D1%8B/ 1 54712 0 0
+/wp-content/index.php 1 173 1 1
+/sitemap_index.xml 2 1912 0 0
+/2017/02/ 2 57258 0 0
+/%d0%bc%d0%be%d0%b8-%d1%80%d0%be%d0%b7%d1%8b/nggallery/page/5 1 52687 0 0
+/feed/rdf/ 1 15297 0 0
+/%d0%bb%d0%b8%d0%bb%d0%b8%d0%b8-%d0%bb%d0%b8%d0%bb%d0%b5%d0%b9%d0%bd%d0%b8%d0%ba%d0%b8-%d0%b8-%d0%ba%d0%bb%d0%b5%d0%bc%d0%b0%d1%82%d0%b8%d1%81%d1%8b/nggallery/thumbnails/page/2 2 120916 0 0
+/index.php 2 70276 2 2
+/%D1%85%D0%BE%D1%81%D1%82%D1%8B/nggallery/thumbnails 2 101734 0 0
+/wp-content/themes/index.php 1 173 1 0
+/wp-content/plugins/index.php 1 173 0 1
+/%d0%bf%d1%80%d0%be%d0%b4%d0%b0%d0%b6%d0%b0-%d1%81%d0%b0%d0%b4%d0%be%d0%b2%d1%8b%d1%85-%d1%80%d0%b0%d1%81%d1%82%d0%b5%d0%bd%d0%b8%d0%b9/ 6 205424 0 0
+/%D0%BC%D0%BE%D0%B8-%D1%80%D0%BE%D0%B7%D1%8B/ 2 105192 0 0
+/%d0%b4%d0%be%d0%bc-%d0%b2-%d1%81%d1%82%d0%b8%d0%bb%d0%b5-%d0%ba%d0%b0%d0%bd%d1%82%d1%80%d0%b8/ 3 118884 0 0
+/vyrashchivanie-arbuzov/ 2 90662 0 0
+END_SIDER

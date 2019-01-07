@@ -1,0 +1,864 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.moydom.website.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2662                
+POS_VISITOR 23425               
+POS_DAY 29550               
+POS_DOMAIN 3476                
+POS_LOGIN 3708                
+POS_ROBOT 3863                
+POS_WORMS 4331                
+POS_EMAILSENDER 4462                
+POS_EMAILRECEIVER 4605                
+POS_SESSION 30311               
+POS_SIDER 30495               
+POS_FILETYPES 4740                
+POS_DOWNLOADS 4942                
+POS_OS 5014                
+POS_BROWSER 5176                
+POS_SCREENSIZE 6117                
+POS_UNKNOWNREFERER 6191                
+POS_UNKNOWNREFERERBROWSER 6732                
+POS_ORIGIN 6845                
+POS_SEREFERRALS 6985                
+POS_PAGEREFS 7153                
+POS_SEARCHWORDS 7394                
+POS_KEYWORDS 7605                
+POS_MISC 2326                
+POS_ERRORS 7725                
+POS_CLUSTER 3564                
+POS_SIDER_404 7861                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170501003846 143 41084 9234972570471
+FirstTime 0
+LastTime 20170430232811
+LastUpdate 20170501043514 143 0 142 0 0
+TotalVisits 89                  
+TotalUnique 85                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 191                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 14 93157 52 61 297142
+1 6 6 53124 21 40 118702
+2 48 48 3624520 25 30 112145
+3 12 68 2685162 299 324 7209897
+4 10 47 1041789 20 25 157587
+5 13 65 1902300 19 47 1743258
+6 25 91 2340367 21 45 808623
+7 8 64 1933114 19 32 130932
+8 14 15 355529 31 63 173692
+9 56 186 3619863 25 52 676400
+10 10 53 1116740 9 13 36512
+11 24 90 3032710 19 25 79953
+12 14 15 804573 19 23 73809
+13 7 170 5697934 20 35 71265
+14 3 43 1029710 13 41 1694682
+15 2 9 122139 10 27 881991
+16 3 17 836638 17 33 882882
+17 6 121 3177472 15 27 114714
+18 6 75 2186877 11 32 876034
+19 3 4 17458 4 7 38682
+20 10 43 1068938 24 31 165458
+21 10 40 1719253 18 48 191937
+22 9 62 1891143 18 36 980896
+23 11 80 1906520 29 45 956417
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 323 1426 42257030
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+yandex 494 11981642 20170430234604 52
+wordpress 107 25881 20170430232813 0
+googlebot 55 145852 20170430075708 21
+bot[\s_+:,\.\;\/\\-] 41 141744 20170430225435 21
+crawl 21 157837 20170423005752 1
+unknown 13 11257 20170427063359 13
+no_user_agent 6 65819 20170425073320 0
+surveybot 2 9583 20170414161259 1
+favicon 2 31853 20170409061600 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 176 4993004 0 0
+css 164 1126542 0 0
+png 399 1007682 0 0
+html 147 2089651 0 0
+jpg 188 3870154 0 0
+js 327 29149837 0 0
+gif 25 20160 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 109 0 89043
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 115
+winlong 28
+winxp 200
+winnt 97
+winvista 109
+linux 158
+win7 476
+macosx 43
+winunknown 1
+j2me 43
+Unknown 156
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 50
+msie6.0 7
+chrome29.0.1547.76 1
+chrome38.0.2125.104 2
+firefox52.0 41
+chrome28.0.1500.95 38
+chrome39.0.2171.95 25
+chrome31.0.1650.57 104
+chrome56.0.2924.87 109
+chrome57.0.2987.98 3
+opera9.80 141
+msie8.0 115
+chrome53.0.2785.89 14
+chrome47.0.2526.111 2
+msie7.0 1
+chrome17.0.963.46 1
+chrome27.0.1453.90 1
+chrome37.0.2062.120 3
+chrome55.0.2883.95 1
+chrome27.0.1453 31
+msie9.0 84
+chrome49.0.2623.112 2
+Unknown 1
+chrome40.0.2267.69 1
+chrome57.0.2987.132 39
+netscape 23
+firefox50.0 50
+firefox53.0 40
+firefox48.0 1
+chrome48.0.2564.95 1
+chrome53.0.2785.143 1
+safari10.0 42
+chrome40.0.2214.109 32
+chrome53.0.2785.101 1
+firefox29.0 102
+chrome54.0.2840.99 1
+firefox46.0 1
+firefox12.0 1
+chrome38.0.2125.102 1
+firefox47.0 40
+firefox45.0 3
+chrome45.0.2454.94 2
+chrome54.0.2840.71 2
+safari9.0 1
+mozilla 67
+firefox37.0 1
+chrome57.0.2987.133 48
+msie10.0 104
+chrome37.0.2106.54 1
+chrome46.0.2490.86 2
+safari 91
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla 20170423091718
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/55.0.2883.95_Safari/537.36 20170402034416
+Opera/9.80_(Android;_Opera_Mini/7.5.35199/60.344;_U;_ru)_Presto/2.12.423_Version/12.16 20170425093410
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170427063413
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170427231835
+Mozilla/4.0_(compatible;_Synapse) 20170417185747
+Mozilla/5.0_(compatible;_ips-agent) 20170404110452
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+wp-windowsphone 20170413185419
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 244 289
+From1 0 0
+From2 20 21
+From3 5 5
+From4 54 1111
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 6 6
+yandex 14 15
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://yandex.ua/clck/jsredir 2 2
+http://burger-imperia.com 2 2
+http://pizza-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%bc%d0%be%d0%b9+%d0%b4%d0%be%d0%bc.%d1%81%d0%be%d0%bc 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%d0%b4%d0%be%d0%bc.%d1%81%d0%be%d0%bc 1
+%d0%bc%d0%be%d0%b9 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 4 2115
+405 1 311
+500 3 1751
+404 327 5874040
+301 49 15669
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 296
+/wp-content/plugins/sugar-slider/timthumb.php 1 -
+/wp-content/themes/granite-lite/scripts/timthumb.php 1 -
+/wp-content/plugins/analytics-counter/view/scripts/wpadm-ga.js 1 -
+/wp-content/themes/multidesign/scripts/timthumb.php 1 -
+/wp-content/themes/conceditor-wp-strict/scripts/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme/scripts/timthumb.php 1 -
+/075a33b3-3dd8-490d-b871-1c5be1767a0b 1 -
+/wp-content/themes/simplewhite/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme-1/scripts/timthumb.php 1 -
+/wp-content/themes/dandelion_v2.6.3/functions/timthumb.php 1 -
+/wp-content/themes/calotropis/includes/timthumb.php 1 -
+/wp-content/plugins/aio-shortcodes/timthumb.php 1 -
+/wp-content/plugins/wordpress-gallery-plugin/timthumb.php 1 -
+/wp-content/themes/CFWProfessional/timthumb.php 1 -
+/wp-content/themes/shadow-block/thumb.php 1 -
+/wp-content/themes/arthemix-bronze/scripts/timthumb.php 1 -
+/wp-content/themes/wpbus-d4/includes/timthumb.php 1 -
+/wp-content/themes/slidette/timThumb/timthumb.php 1 -
+/wp-content/themes/heartspotting-beta/thumb.php 1 -
+/wp-content/themes/Nova/timthumb.php 1 -
+/wp-content/themes/wp-premium-orange/timthumb.php 1 -
+/wp-content/themes/inuit-types/thumb.php 1 -
+/wp-content/themes/r755/thumb.php 1 -
+/wp-content/themes/litepress/scripts/timthumb.php 1 -
+/wp-content/themes/blue-corporate-hyve-theme/timthumb.php 1 -
+/wp-content/themes/8q/scripts/timthumb.php 1 -
+/pagephp 1 http://moydom.website/pagephp
+/wp-content/plugins/dropbox-backup/template/js/admin-wpadm.js 1 -
+/wp-content/themes/gunungkidul/thumb.php 1 -
+/wp-content/themes/postage-sydney/includes/timthumb.php 1 -
+/wp-content/themes/meintest/layouts/thumb.php 1 -
+/wp-content/themes/business-turnkey/assets/js/timthumb.php 1 -
+/wp-content/themes/postcard/thumb.php 1 -
+/wp-content/themes/blue-news/scripts/timthumb.php 1 -
+/wp-content/themes/photoria/scripts/timthumb.php 1 -
+/wp-content/themes/breakingnewz/timthumb.php 1 -
+/wp-content/plugins/webphysiology-portfolio/timthumb.php 1 -
+/wp-content/themes/simplenews_premium/scripts/timthumb.php 1 -
+/wp-content/plugins/placid-slider/timthumb.php 1 -
+/wp-content/plugins/woo-tumblog/timthumb.php 1 -
+/wp-content/themes/deep-blue/timthumb.php 1 -
+/wp-content/themes/Magnificent/timthumb.php 1 -
+/wp-content/themes/totallyred/scripts/timthumb.php 1 -
+/wp-content/themes/spotlight/timthumb.php 1 -
+/wp-content/plugins/nivo-slider/timthumb.php 1 -
+/wp-content/themes/wp-clear-prem/scripts/timthumb.php 1 -
+/wp-content/themes/coverht-wp/scripts/timthumb.php 1 -
+/wp-content/themes/aureola/scripts/timthumb.php 1 -
+/wp-content/plugins/front-end-upload/upload.php 1 -
+/wp-content/themes/constructor/libs/timthumb.php 1 -
+/wp-content/themes/dailyedition/thumb.php 1 -
+/wp-content/plugins/verve-meta-boxes/timthumb.php 1 -
+/wp-content/themes/zcool-like/timthumb.php 1 -
+/wp-content/themes/whitemag/script/thumb.php 1 -
+/wp-content/themes/xiando-one/thumb.php 1 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 -
+/wp-content/themes/purevision/scripts/timthumb.php 1 -
+/wp-content/themes/go-green/modules/timthumb.php 1 -
+/wp-content/themes/bombax/includes/timthumb.php 1 -
+/wp-content/plugins/dukapress/timthumb.php 1 -
+/wp-content/themes/flix/timthumb.php 1 -
+/wp-content/themes/spectrum/thumb.php 1 -
+/wp-content/themes/new-green-natural-living-ngnl/scripts/timthumb.php 1 -
+/wp-content/themes/dark-dream-media/timthumb.php 1 -
+/wp-content/themes/theory/thumb.php 1 -
+/wp-content/themes/PersonalPress/timthumb.php 1 -
+/wp-content/themes/bloggnorge-a1/scripts/timthumb.php 1 -
+/wp-content/themes/biznizz/thumb.php 1 -
+/wp-content/plugins/meenews-newsletter/timthumb.php 1 -
+/wp-content/themes/blogified/timthumb.php 1 -
+/wp-content/themes/dandelion_v2.6.4/functions/timthumb.php 1 -
+/wp-content/plugins/jquery-slider-for-featured-content/timthumb.php 1 -
+/wp-content/themes/pico/scripts/timthumb.php 1 -
+/wp-content/themes/Chameleon/timthumb.php 1 -
+/wp-content/plugins/wordpress-thumbnail-slider/timthumb.php 1 -
+/wp-content/themes/muse/scripts/timthumb.php 1 -
+/wp-content/themes/ttnews-theme/timthumb.php 1 -
+/wp-content/themes/amphion-lite/script/timthumb.php 1 -
+/wp-content/themes/tm-theme/js/timthumb.php 1 -
+/wp-content/themes/pearlie_14%20dec/scripts/timthumb.php 1 -
+/wp-content/plugins/a-gallery/timthumb.php 1 -
+/wp-content/themes/PureType/timthumb.php 1 -
+/wp-content/themes/bikes/thumb.php 1 -
+/wp-content/themes/mymag/timthumb.php 1 -
+/wp-content/themes/broadcast/thumb.php 1 -
+/wp-content/plugins/fancybox-for-wordpress/js/admin.js 1 MOYDOM.WEBSITE/wp-content/plugins/fancybox-for-wordpress/js/admin.js
+/wp-content/themes/digitalblue/thumb.php 1 -
+/wp-content/themes/ePhoto/timthumb.php 1 -
+/wp-content/themes/myjourney_3.1/thumb.php 1 -
+/wp-content/themes/cover-wp/scripts/timthumb.php 1 -
+/wp-content/plugins/simple-ads-manager/readme.txt 1 -
+/wp-content/plugins/Login-wall-etgfb/login_wall.php 1 http://moydom.website/wp-content/plugins/Login-wall-etgfb/login_wall.php
+/wp-content/plugins/islidex/timthumb.php 1 -
+/wp-content/themes/ugly/timthumb.php 1 -
+/wp-content/themes/typebased/thumb.php 1 -
+/wp-content/themes/my-heli/images/timthumb.php 1 -
+/wp-content/themes/InterPhase/timthumb.php 1 -
+/wp-content/themes/MyProduct/timthumb.php 1 -
+/wp-content/themes/fresh-blu/scripts/timthumb.php 1 -
+/wp-content/themes/diamond-ray/thumb.php 1 -
+/wp-content/themes/simple-tabloid/thumb.php 1 -
+/wp-content/plugins/mac-dock-gallery/upload-file.php 1 -
+/wp-content/themes/redlight/includes/timthumb.php 1 -
+/wp-content/plugins/portfolio-slideshow-pro/timthumb.php 1 -
+/wp-content/plugins/journalcrunch/timthumb.php 1 -
+/wp-content/plugins/lisl-last-image-slider/timthumb.php 1 -
+/wp-content/plugins/download-manager/timthumb.php 1 -
+/wp-content/themes/epione/script/timthumb.php 1 -
+/wp-content/themes/coffeedesk/includes/timthumb.php 1 -
+/wp-content/themes/introvert/thumb.php 1 -
+/wp-content/plugins/Premium_Gallery_Manager/timthumb.php 1 -
+/wp-content/themes/wp-newsmagazine/scripts/timthumb.php 1 -
+/wp-content/themes/Memoir/timthumb.php 1 -
+/wp-content/themes/themorningafter/thumb.php 1 -
+/wp-content/plugins/stats-counter/img/icon.png 1 -
+/wp-content/themes/jambo/thumb.php 1 -
+/wp-content/plugins/photoria/timthumb.php 1 -
+/wp-content/themes/life-style-free/thumb.php 1 -
+/wp-content/themes/newspress/thumb.php 1 -
+/wp-content/themes/snapshot/thumb.php 1 -
+/wp-content/themes/magazine-basic/thumb.php 1 -
+/wp-content/themes/eStore/timthumb.php 1 -
+/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B5-%D0%BF%D0%B8%D1%82%D0%BE%D0%BC%D1%86%D1%8B/ 2 -
+/wp-content/themes/unity/timthumb.php 1 -
+/wp-content/themes/magup/timthumb.php 1 -
+/wp-content/themes/ideatheme/timthumb.php 1 -
+/wp-content/themes/heli-1-wordpress-theme/images/timthumb.php 1 -
+/wp-content/themes/Delicate/thumb.php 1 -
+/wp-content/plugins/a-wp-mobile-detector/timthumb.php 1 -
+/wp-content/themes/arthemix-green/scripts/timthumb.php 1 -
+/wp-content/themes/travelogue-theme/scripts/timthumb.php 1 -
+/wp-content/themes/arras-theme/library/timthumb.php 1 -
+/wp-content/themes/simple-but-great/timthumb.php 1 -
+/wp-content/themes/jcblackone/thumb.php 1 -
+/wp-content/themes/aerial/lib/timthumb.php 1 -
+/wp-content/themes/brochure-melbourne/includes/timthumb.php 1 -
+/wp-content/themes/snowblind_colbert/thumb.php 1 -
+/wp-content/themes/impressio/timthumb/timthumb.php 1 -
+/wp-content/plugins/highlighter/timthumb.php 1 -
+/wp-content/themes/a-simple-business-theme/scripts/timthumb.php 1 -
+/wp-content/themes/featuring/timthumb.php 1 -
+/wp-content/plugins/meenews/timthumb.php 1 -
+/wp-content/plugins/kc-related-posts-by-category/timthumb.php 1 -
+/wp-content/themes/albizia/includes/timthumb.php 1 -
+/apple-app-site-association 3 -
+/wp-content/themes/premiumnews/thumb.php 1 -
+/wp-content/themes/profitstheme/thumb.php 1 -
+/wp-content/plugins/dropbox-backup/img/icon.png 1 -
+/ 10 http://moydom.website/
+/wp-content/themes/aurorae/timthumb.php 1 -
+/wp-content/themes/Event/timthumb.php 1 -
+/wp-content/themes/bt/includes/timthumb.php 1 -
+/wp-content/themes/the_dark_os/tools/timthumb.php 1 -
+/wp-content/plugins/logo-management/timthumb.php 1 -
+/.well-known/apple-app-site-association 3 -
+/wp-content/plugins/dp-thumbnail/timthumb.php 1 -
+/wp-content/themes/bluemag/library/timthumb.php 1 -
+/%D0%B2%D1%8B%D1%80%D0%B0%D1%89%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D0%B1%D1%83%D0%B7%D0%BE%D0%B2/ 9 -
+/wp-content/themes/Transcript/timthumb.php 1 -
+/wp-content/themes/versitility/timthumb.php 1 -
+/wp-content/themes/arras/library/timthumb.php 1 -
+/wp-content/themes/shaan/timthumb.php 1 -
+/wp-content/themes/twittplus/scripts/timthumb.php 1 -
+/wp-content/themes/ElegantEstate/timthumb.php 1 -
+/wp-content/themes/nash/theme-assets/php/timthumb.php 1 -
+/wp-content/themes/autofashion/thumb.php 1 -
+/wp-content/themes/kratalistic/thumb.php 1 -
+/wp-content/themes/make-money-online-theme-2/scripts/timthumb.php 1 -
+/wp-content/themes/retreat/thumb.php 1 -
+/wp-content/themes/themetiger-fashion/thumb.php 1 -
+/wp-content/plugins/optimizepress/timthumb.php 1 -
+/wp-content/plugins/igit-posts-slider-widget/timthumb.php 1 -
+/wp-content/themes/GrungeMag/timthumb.php 1 -
+/wp-content/themes/premium-violet/thumb.php 1 -
+/wp-content/plugins/wp-marketplace/timthumb.php 1 -
+/wp-content/themes/likehacker/timthumb.php 1 -
+/wp-content/themes/aranovo/scripts/timthumb.php 1 -
+/wp-content/plugins/gravityforms/css/preview.css 1 -
+/wp-content/themes/skeptical/thumb.php 1 -
+/sample-page/ 1 -
+/wp-content/themes/wp-perfect/js/timthumb.php 1 -
+/wp-content/themes/SimplePress/timthumb.php 1 -
+/wp-content/themes/aesthete/timthumb.php 1 -
+/wp-content/plugins/wp-mobile-detector/timthumb.php 1 -
+/wp-content/themes/comet/scripts/timthumb.php 1 -
+/wp-content/plugins/1-flash-gallery/upload.php 1 -
+/wp-content/themes/thestation/thumb.php 1 -
+/google23bd346df54fe3e6.html 1 -
+/wp-content/themes/dimenzion/timthumb.php 1 -
+/wp-content/themes/greyzed/functions/efrog/lib/timthumb.php 1 -
+/wp-content/themes/aqua-blue/includes/timthumb.php 1 -
+/wp-content/plugins/mobile-smart/timthumb.php 1 -
+/wp-content/themes/evr-green/scripts/timthumb.php 1 -
+/wp-content/themes/Minimal/timthumb.php 1 -
+/wp-content/themes/snowblind/thumb.php 1 -
+/wp-content/plugins/cms-pack/timthumb.php 1 -
+/wp-content/themes/pronto/cjl/pronto/uploadify/check.php 1 -
+/wp-content/themes/vibefolio-teaser-10/scripts/timthumb.php 1 -
+/wp-content/themes/true-blue-theme/timthumb.php 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 -
+/wp-content/themes/squeezepage/timthumb.php 1 -
+/wp-content/themes/probluezine/timthumb.php 1 -
+/wp-content/themes/iwana-v10/timthumb.php 1 -
+/wp-content/themes/optimize/thumb.php 1 -
+/wp-content/themes/backstage/thumb.php 1 -
+/wp-content/themes/coffee-lite/thumb.php 1 -
+/wp-content/themes/dieselclothings/thumb.php 1 -
+/wp-content/themes/duotive-three/includes/timthumb.php 1 -
+/wp-content/themes/wp-creativix/scripts/timthumb.php 1 -
+/wp-content/themes/insignio/images/timthumb.php 1 -
+/wp-content/themes/artisan/includes/timthumb.php 1 -
+/wp-content/themes/famous/timthumb.php 1 -
+/wp-content/themes/pronto/cjl/pronto/uploadify/uploadify.php 1 -
+/wp-json/wp/v2/users/ 7 http://moydom.website/wp-json/wp/v2/users/
+/wp-content/plugins/category-grid-view-gallery/timthumb.php 1 -
+/wp-content/themes/moi-magazine/timthumb.php 1 -
+/wp-content/themes/constructor/layouts/thumb.php 1 -
+/wp-content/themes/delicate/thumb.php 1 -
+/wp-content/themes/eBusiness/timthumb.php 1 -
+/wp-content/themes/constructor/timthumb.php 1 -
+/wp-content/themes/pearlie/scripts/timthumb.php 1 -
+/wp-content/themes/freeside/thumb.php 1 -
+/wp-content/themes/swift/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme-4/scripts/timthumb.php 1 -
+/wp-content/themes/fashion-style/thumb.php 1 -
+/wp-content/themes/LightBright/timthumb.php 1 -
+/wp-content/plugins/seo-image-galleries/timthumb.php 1 -
+/wp-content/themes/automotive-blog-theme/timthumb.php 1 -
+/wp-content/themes/thrillingtheme/thumb.php 1 -
+/wp-content/themes/neofresh/timthumb.php 1 -
+/wp-content/themes/gallant/thumb.php 1 -
+/wp-content/themes/regal/timthumb.php 1 -
+/wp-content/themes/standout/thumb.php 1 -
+/newvercion 1 http://ya.ru/
+/wp-content/plugins/igit-related-posts-with-thumb-images-after-posts/timthumb.php 1 -
+/wp-content/themes/TheSource/timthumb.php 1 -
+/wp-content/themes/fordreporter/scripts/thumb.php 1 -
+/wp-content/themes/neo_wdl/includes/extensions/thumb.php 1 -
+/wp-content/themes/a-supercms/timthumb.php 1 -
+/wp-content/themes/swift/includes/thumb.php 1 -
+/wp-content/themes/editorial/thumb.php 1 -
+/wp-content/themes/modularity2/includes/timthumb.php 1 -
+/wp-content/plugins/smart-related-posts-thumbnails/timthumb.php 1 -
+/wp-content/themes/Reporter/timthumb.php 1 -
+/wp-content/themes/fliphoto/timthumb.php 1 -
+/wp-content/themes/tribune/scripts/timthumb.php 1 -
+/wp-content/themes/make-money-online-theme-3/scripts/timthumb.php 1 -
+/wp-content/plugins/social-profiles-widget/timthumb.php 1 -
+/wp-content/plugins/geotag/timthumb.php 1 -
+/wp-content/plugins/LaunchPressTheme/timthumb.php 1 -
+/wp-content/themes/modularity/includes/timthumb.php 1 -
+/wp-content/themes/dualshockers2/thumb.php 1 -
+/wp-content/themes/famous/megaframe/megapanel/inc/upload.php 1 -
+/wp-content/themes/vina/thumb.php 1 -
+/wp-content/themes/eNews/timthumb.php 1 -
+/2e8b7ccb-7837-47df-8bb2-32d9b374cb99 1 -
+/.well-known/assetlinks.json 4 -
+/wp-content/themes/Bold/timthumb.php 1 -
+/wp-content/themes/swift/includes/timthumb.php 1 -
+/wp-content/themes/myjourney/thumb.php 1 -
+/wp-content/themes/the-theme/core/libs/thumbnails/thumb.php 1 -
+/wp-content/themes/loganpress-premium-theme-1/thumb.php 1 -
+/wp-content/themes/wpapi/thumb.php 1 -
+/wp-content/plugins/wp-slick-slider/timthumb.php 1 -
+/wp-content/plugins/WPFanPro/timthumb.php 1 -
+/wp-content/themes/typographywp/timthumb.php 1 -
+/wp-content/themes/OptimizePress/timthumb.php 1 -
+/wp-content/themes/mystique/extensions/auto-thumb/timthumb.php 1 -
+/wp-content/plugins/front-slider/timthumb.php 1 -
+/wp-content/themes/DelicateNews/timthumb.php 1 -
+/wp-content/themes/greydove/timthumb.php 1 -
+/wp-content/themes/black_eve/timthumb.php 1 -
+/d8df987e-ff12-4494-863b-e63fdc2bd538 1 -
+/wp-content/themes/deliciousmagazine/thumb.php 1 -
+/wp-content/themes/isotherm-news/thumb.php 1 -
+/wp-content/themes/NewsPro/timthumb.php 1 -
+/wp-content/themes/techozoic-fluid/options/thumb.php 1 -
+/wp-content/plugins/db-toolkit/timthumb.php 1 -
+/wp-content/themes/cruz/scripts/timthumb.php 1 -
+/5f63b328-edf1-4af9-ba07-10717dcfef68 1 -
+/wp-content/themes/vulcan/timthumb.php 1 -
+/wp-content/themes/DeepBlue/timthumb.php 1 -
+/wp-content/themes/brightsky/scripts/timthumb.php 1 -
+/wp-content/themes/mini-lab/functions/timthumb.php 1 -
+/wp-content/plugins/shortcodes-ultimate/timthumb.php 1 -
+/wp-content/themes/blex/scripts/timthumb.php 1 -
+/wp-content/themes/simple-red-theme/timthumb.php 1 -
+/wp-content/themes/suffusion/timthumb.php 1 -
+/wp-content/themes/DeepFocus/timthumb.php 1 -
+/wp-content/themes/shadow/timthumb.php 1 -
+/wp-content/themes/Basic/timthumb.php 1 -
+/wp-content/themes/bueno/thumb.php 1 -
+/wp-content/themes/mobilephonecomparision/thumb.php 1 -
+/wp-content/themes/delight/scripts/timthumb.php 1 -
+/wp-content/themes/simplicity/thumb.php 1 -
+/wp-content/themes/zcool-like/uploadify.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 191
+5.141.224.120 84 84 304098 20170418081217
+64.79.100.32 48 48 391602 20170423091718
+78.25.122.123 30 30 767340 20170425021545
+188.18.116.135 20 20 72640 20170419120650
+167.114.174.95 12 12 325528 20170427063420
+167.114.172.225 12 12 325849 20170407080404
+69.58.178.56 10 10 293245 20170404110452
+37.115.185.126 10 10 762300 20170407120549
+78.25.123.141 9 9 2826039 20170425025313
+141.0.13.163 5 97 2183811 20170425093409
+217.118.95.101 0 1 4675 
+79.175.51.23 0 1 22416 
+176.14.238.157 1 15 832467 20170421132612
+95.152.62.33 0 1 20011 
+94.23.169.57 2 2 4170 20170403020254
+204.79.180.71 0 1 1315 
+82.145.221.231 1 43 1057216 20170425134903
+188.255.55.206 1 38 1007214 20170418040939
+93.80.52.105 1 38 1007213 20170422094626
+93.76.169.31 1 39 1027992 20170430174841
+204.79.180.221 0 1 1403 
+66.249.89.156 1 1 355 20170427231835
+66.102.9.24 0 11 233218 
+204.79.180.26 0 1 1403 
+14.174.154.82 1 1 1676 20170429104406
+5.3.207.143 0 1 22416 
+95.83.29.89 0 1 4675 
+204.79.180.162 0 1 25860 
+81.28.168.2 0 1 22416 
+204.79.180.38 0 1 66798 
+204.79.180.73 0 1 97184 
+204.79.180.164 0 3 585793 
+128.69.225.24 1 30 870627 20170411184532
+124.248.212.64 1 1 2085 20170405192754
+89.19.119.171 1 40 1051232 20170428185009
+82.208.101.159 0 1 29078 
+204.79.180.25 0 1 10056 
+46.101.11.119 1 1 8613 20170430055611
+204.79.180.111 0 1 2063 
+204.79.180.77 1 1 8613 20170426072615
+109.87.10.224 0 1 4675 
+128.69.152.114 1 15 832468 20170411054850
+144.76.62.77 2 62 1945254 20170426134001
+173.214.152.239 1 1 8613 20170429173753
+204.79.180.18 0 1 1397 
+204.79.180.22 0 1 10056 
+204.79.180.75 0 1 1315 
+204.79.180.233 0 1 66798 
+185.38.164.219 1 1 2085 20170418041519
+62.192.248.36 1 41 1071983 20170421102348
+5.39.219.50 2 2 248593 20170413185419
+37.147.230.232 1 15 832468 20170411161258
+185.116.213.164 1 1 2085 20170414062923
+204.79.180.126 1 1 8613 20170427032922
+176.123.26.63 1 1 8613 20170410033736
+204.79.180.217 0 1 2063 
+46.147.213.173 1 14 829980 20170413132839
+193.58.246.79 0 1 4675 
+204.79.180.21 0 1 10414 
+118.178.126.99 1 1 2085 20170408111737
+80.216.43.253 2 2 870 20170421005220
+5.196.66.162 1 1 8613 20170413035026
+204.79.180.41 0 1 2063 
+91.232.157.98 1 1 8613 20170406200727
+46.187.106.113 1 39 1027992 20170425071435
+204.79.180.213 0 1 1397 
+216.189.149.224 1 1 2085 20170419160603
+204.79.180.115 0 1 66798 
+31.162.51.63 0 1 4675 
+204.79.180.192 0 1 10056 
+200.29.147.60 1 1 2085 20170422190323
+204.79.180.177 0 2 583730 
+204.79.180.120 0 1 11043 
+109.120.161.138 2 2 30334 20170420122709
+204.79.180.225 0 1 15573 
+109.63.137.197 1 38 1007214 20170412221019
+204.79.180.222 0 1 10414 
+83.149.45.237 0 1 4675 
+204.79.180.244 0 1 1397 
+109.108.78.25 2 57 1022274 20170404231722
+204.79.180.236 1 1 8613 20170425211238
+128.74.183.116 0 2 24686 
+66.102.9.21 1 10 146122 20170409061534
+204.79.180.32 0 1 2063 
+104.196.240.135 1 1 8613 20170424092140
+178.62.48.76 1 1 8613 20170415090255
+188.163.108.30 1 1 8613 20170422012016
+176.195.246.205 1 14 828989 20170414030649
+95.79.200.189 0 1 20011 
+46.164.133.178 0 1 4675 
+204.79.180.11 0 2 20828 
+85.95.188.215 0 1 4675 
+204.79.180.122 0 1 1397 
+204.79.180.81 0 1 11043 
+91.124.31.162 1 39 1008610 20170430142329
+204.79.180.146 0 2 573443 
+104.198.7.244 1 1 8613 20170405142710
+204.79.180.163 0 1 17289 
+46.42.3.244 0 1 4675 
+54.235.234.236 1 31 972627 20170421031733
+37.187.140.28 1 1 2085 20170407203053
+204.79.180.171 0 2 107598 
+204.79.180.49 0 1 557870 
+184.57.6.156 3 42 1137672 20170413174154
+41.68.124.178 1 1 8613 20170413195610
+188.163.108.17 1 1 8613 20170422133700
+176.195.98.119 1 37 993845 20170415065758
+204.79.180.39 0 1 10056 
+204.79.180.157 0 1 66798 
+204.79.180.8 0 1 25860 
+204.79.180.151 0 1 11043 
+204.79.180.69 0 1 1403 
+176.9.50.43 1 1 8613 20170406045015
+204.79.180.116 1 1 8613 20170429115615
+204.79.180.19 0 2 34578 
+204.79.180.24 0 1 2063 
+204.79.180.223 0 1 11043 
+204.79.180.33 1 1 8613 20170423225939
+78.25.122.147 1 1 615 20170424202842
+2.92.123.173 0 1 20011 
+113.188.103.239 1 1 8613 20170425060931
+153.125.225.124 1 1 2085 20170410160438
+204.79.180.194 1 2 105797 20170429212406
+204.79.180.76 0 1 10056 
+89.250.169.62 0 1 4675 
+85.237.63.21 0 1 4675 
+109.126.253.245 0 1 22416 
+204.79.180.99 0 1 25860 
+66.102.9.22 0 10 593287 
+204.79.180.89 0 2 98581 
+212.92.189.243 0 1 4675 
+176.52.47.46 1 38 1014623 20170424113254
+185.146.168.146 1 1 8613 20170402060214
+144.76.175.75 1 31 972627 20170426133942
+51.15.59.54 1 1 17650 20170402034416
+204.79.180.215 0 1 17289 
+176.115.120.159 0 1 4675 
+137.74.167.224 1 1 29983 20170413150207
+178.204.223.155 0 1 4675 
+204.79.180.185 0 1 97184 
+91.192.66.251 0 20 863463 
+195.242.80.15 1 1 29983 20170414003935
+204.79.180.136 0 1 11043 
+37.204.152.159 1 37 993845 20170419173043
+204.79.180.5 0 1 1403 
+204.79.180.108 0 1 557870 
+204.79.180.86 0 1 10414 
+94.177.240.104 1 1 2085 20170419053001
+185.188.182.230 1 1 8613 20170430232811
+85.233.76.84 0 1 4675 
+204.79.180.23 0 1 66798 
+78.84.160.22 1 1 8613 20170409155322
+95.181.176.187 1 1 3493 20170401221554
+193.150.111.207 0 1 4675 
+178.95.81.22 0 1 4675 
+94.51.142.151 0 1 22416 
+188.32.92.1 0 1 4675 
+89.178.97.41 1 39 1027993 20170419055156
+178.44.28.180 0 1 22416 
+204.79.180.104 0 1 17289 
+176.59.44.220 0 1 4675 
+59.124.153.199 1 1 2085 20170402044243
+204.79.180.170 0 2 16888 
+91.227.207.4 0 1 22416 
+204.79.180.56 0 1 1315 
+5.39.219.53 1 1 29983 20170405011808
+95.221.232.189 1 15 832468 20170418113823
+176.193.130.178 1 14 831070 20170420233636
+178.44.40.42 0 3 47102 
+62.122.103.56 0 1 4675 
+204.79.180.44 0 1 10056 
+204.79.180.224 0 2 2718 
+93.174.124.235 1 1 2085 20170419004706
+94.198.238.106 0 1 22416 
+91.192.66.175 1 12 129943 20170430200902
+204.79.180.179 0 1 17289 
+204.79.180.237 0 1 1315 
+188.186.178.50 0 1 4675 
+204.79.180.100 0 1 1397 
+94.138.128.49 0 1 22416 
+204.79.180.3 0 2 568913 
+190.111.231.48 1 1 2085 20170421001312
+204.79.180.53 0 1 15573 
+213.177.101.195 0 1 4675 
+204.79.180.103 0 1 97184 
+65.19.167.134 1 1 8613 20170426180347
+204.79.180.166 0 2 41433 
+204.79.180.189 0 1 1403 
+204.79.180.121 0 1 66798 
+95.108.133.225 0 1 4675 
+204.79.180.174 0 1 15573 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170401 2 2 5578 2
+20170402 3 3 28348 3
+20170403 1 1 2085 1
+20170404 12 67 1315519 2
+20170405 3 4 60692 3
+20170406 2 5 48992 2
+20170407 23 23 1090234 3
+20170408 1 2 24501 1
+20170409 2 33 1003656 2
+20170410 2 3 15373 2
+20170411 3 60 2535563 3
+20170412 1 39 1011889 1
+20170413 9 61 2263454 6
+20170414 3 16 861057 3
+20170415 2 40 1011808 2
+20170416 0 2 27091 0
+20170417 28 29 105381 3
+20170418 59 116 2139363 4
+20170419 25 100 2105408 6
+20170420 3 18 870754 2
+20170421 6 92 2907123 5
+20170422 4 43 1035874 4
+20170423 49 70 1306698 2
+20170424 3 41 1028526 3
+20170425 48 236 8727250 7
+20170426 5 110 3780463 4
+20170427 14 28 1181839 3
+20170428 1 40 1051232 1
+20170429 4 30 1664045 4
+20170430 5 112 3047234 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 3
+5mn-15mn 1
+0s-30s 81
+30s-2mn 2
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/wp-login.php 123 417230 20 20
+/xmlrpc.php 51 4574904 4 5
+/ 49 679252 40 35
+/luchie-sorta-arbuzov/ 20 236289 16 16
+/sbor-berezovogo-soka/ 12 202585 5 5
+/%d0%b4%d0%be%d0%bc-%d0%b2-%d1%81%d1%82%d0%b8%d0%bb%d0%b5-%d0%ba%d0%b0%d0%bd%d1%82%d1%80%d0%b8/ 7 122277 0 2
+/semeyniy-otdih/ 7 135422 0 0
+/vyrashchivanie-arbuzov/ 6 147270 0 2
+/category/sad/ 5 77176 0 0
+/category/otdih/ 5 93355 0 0
+/category/dom/ 4 44701 0 0
+/category/zemelnij-uchastok/ 4 52629 0 0
+/2016/12/ 4 58882 0 0
+/feed/ 2 6986 1 1
+/%D0%B4%D0%BE%D0%BC-%D0%B2-%D1%81%D1%82%D0%B8%D0%BB%D0%B5-%D0%BA%D0%B0%D0%BD%D1%82%D1%80%D0%B8/ 2 45706 1 1
+/2017/02/ 2 14100 0 0
+/wp-admin/admin-ajax.php 2 870 1 1
+/comments/feed/ 1 1603 0 0
+/googlee4f00b6dc5acca62.html 1 355 1 1
+/marks/%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b9-%d0%be%d1%82%d0%b4%d1%8b%d1%85/ 2 14128 0 0
+/category/domashnie-pitomcy/ 5 77572 0 0
+/2017/03/ 2 13910 0 0
+/marks/%d0%b2%d1%8b%d1%80%d0%b0%d1%89%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b0%d1%80%d0%b1%d1%83%d0%b7%d0%be%d0%b2/ 2 15380 0 0
+/agrotehnika-virachivaniya-arbuzov-v-otkritom-grunte/ 3 34749 0 0
+/2017/01/ 2 15324 0 0
+END_SIDER
